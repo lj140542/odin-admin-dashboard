@@ -1,0 +1,20 @@
+#body {
+    display: grid;
+    grid-template-columns: 15% 85%;
+    grid-template-rows: 20vh max(80%,80vh);
+}
+
+.child {
+    border: 2px solid black;
+}
+
+#header {
+    background-color: lightblue;
+}
+#sidebar {
+    background-color: lightcoral;
+    grid-row: 1 / 3;
+}
+#content {
+    background-color: lightseagreen;
+}
